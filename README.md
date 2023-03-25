@@ -12,8 +12,6 @@ class Value:
         self.grad = 0.0
         self._backward = lambda: None
         self._prev = set(_children)
-        self._op = _op
-        self.label = label
 
     # 定义一组算子
     def __add__(self, other):
