@@ -2,6 +2,8 @@
 
 > [Andrej Karpthy](https://karpathy.ai/) 的自动求导教程([youtube video](https://www.youtube.com/watch?v=VMj-3S1tku0), [github](https://github.com/karpathy/micrograd))
 
+> 用法和demo见 [notebook](./micro_grad.ipynb)
+
 ## 1. 核心代码展示
 ```python
 class Value:
