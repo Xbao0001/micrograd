@@ -1,6 +1,6 @@
 # 基于python的微型自动求导引擎
 
-> [Andrej Karpthy](https://karpathy.ai/) 的自动求导教程([youtube video](https://www.youtube.com/watch?v=VMj-3S1tku0), [github](https://github.com/karpathy/micrograd))
+
 
 > 用法和demo见 [notebook](./micro_grad.ipynb)
 
@@ -57,3 +57,6 @@ class Value:
 ## 2. 效果图
 一个三层（4， 4， 1）的MLP的前向过程和反向求导
 ![img](./assets/output.svg)
+
+
+参考：[Andrej Karpthy](https://karpathy.ai/) 的自动求导教程([youtube video](https://www.youtube.com/watch?v=VMj-3S1tku0), [github](https://github.com/karpathy/micrograd))
