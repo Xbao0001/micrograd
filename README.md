@@ -4,7 +4,11 @@
 
 > 用法和demo见 [notebook](./micro_grad.ipynb)
 
-## 1. 核心代码展示
+## 1. 效果图
+一个三层（4， 4， 1）的MLP的前向过程和反向求导
+![img](./assets/output.svg)
+
+## 2. 核心代码展示
 ```python
 class Value:
     def __init__(self, data, _children=(), _op='', label=''):
@@ -53,10 +57,6 @@ class Value:
             node._backward()
 
 ```
-
-## 2. 效果图
-一个三层（4， 4， 1）的MLP的前向过程和反向求导
-![img](./assets/output.svg)
 
 
 参考：[Andrej Karpthy](https://karpathy.ai/) 的自动求导教程([youtube video](https://www.youtube.com/watch?v=VMj-3S1tku0), [github](https://github.com/karpathy/micrograd))
